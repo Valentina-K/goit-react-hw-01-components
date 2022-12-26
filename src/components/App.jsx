@@ -1,16 +1,18 @@
+import { Profile } from "./Profile/Profile";
+import { Statistics } from './Statistics/Statistics';
+import { TransactionHistory } from "./TransactionHistory/TransactionHistory";
+import user from '../user.json';
+import data from '../data.json';
+import transaction from '../transactions.json';
+import css from './App.module.css'
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
+    <div className={css.container}      
     >
-      React homework template
+      <Profile { ...user } />
+      <Statistics title="Upload stats" stats={data}/>
+      <TransactionHistory items={transaction} />
     </div>
   );
 };
