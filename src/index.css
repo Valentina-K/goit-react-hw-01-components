@@ -1,4 +1,12 @@
 @import-normalize; /* bring in normalize.css styles */
+:root {
+  --text-color: #010101;
+  --text-color-contrast: #fff;
+  --profile-text-color: #b1b0b0;
+
+  --main-font-size: 36px;
+  --second-font-size: 22px;
+}
 body {
   /* 
   font-family: sans-serif; */

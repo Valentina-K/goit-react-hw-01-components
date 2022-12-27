@@ -1,0 +1,28 @@
+.item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 450px;
+  padding: 20px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  box-shadow: 3px 7px 6px 0px rgba(0, 0, 0, 0.63);
+}
+.item > .avatar,
+.item > .name {
+  margin-left: 20px;
+}
+.status {
+  color: red;
+}
+.isOnline {
+  color: green;
+}
+.avatar {
+  width: 110px;
+}
+.name {
+  font-size: var(--main-font-size);
+}
