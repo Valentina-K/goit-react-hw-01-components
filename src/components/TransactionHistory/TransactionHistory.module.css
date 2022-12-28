@@ -1,5 +1,6 @@
 .tansactionHistory {
-  font-family: 'Lucida Sans Unicode', 'Lucida Grande', Sans-Serif;
+  /* 
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', Sans-Serif; */
   font-size: var(--main-font-size);
   width: 60%;
   margin: 0 auto;
