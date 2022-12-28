@@ -1,11 +1,14 @@
 .statistics {
   text-align: center;
-  margin: 30px auto;
+  margin: 0 auto 90px;
   width: 50%;
+  box-shadow: 9px 10px 10px -6px rgba(0, 0, 0, 0.62);
 }
 .title {
-  padding: 20px 0;
+  font-size: var(--main-font-size);
+  padding: 36px 0;
   background-color: #fff;
+  text-transform: uppercase;
 }
 .statList {
   display: flex;
@@ -17,8 +20,8 @@
   color: #fff;
 }
 .label {
-  font-size: 16px;
+  font-size: var(--second-font-size);
 }
 .percentage {
-  font-size: 30px;
+  font-size: var(--main-font-size);
 }

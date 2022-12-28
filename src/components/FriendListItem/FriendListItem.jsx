@@ -6,7 +6,7 @@ export const FriendListItem = ({avatar,name,isOnline}) => {
         <span className={isOnline ?
             css.isOnline :
             css.status}>
-            <BsFillCircleFill size="40"/>
+            <BsFillCircleFill size="24"/>
             </span>
             <img className={css.avatar} src={avatar} alt={name}  />
             <p className={css.name}>{name}</p>
